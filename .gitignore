@@ -1,0 +1,87 @@
+# ==========================
+# Python
+# ==========================
+# Virtual environment
+venv/
+.venv/
+ENV/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+
+# ==========================
+# Node.js / Frontend
+# ==========================
+frontend/node_modules/
+node_modules/
+
+# Build output
+frontend/dist/
+dist/
+
+# ==========================
+# Database
+# ==========================
+# MySQL data directory (sensitive!)
+database/
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# ==========================
+# Logs
+# ==========================
+logs/
+*.log
+
+# ==========================
+# Environment & Secrets
+# ==========================
+.env
+.env.*
+.env.local
+.env.production
+.env.development
+!.env.example
+
+# ==========================
+# IDE / Editor
+# ==========================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Docker
+# ==========================
+# Docker volumes (if any mounted locally)
+docker-data/
+
+# ==========================
+# Misc
+# ==========================
+*.bak
+*.tmp
+*.temp
+verify_fix.py
+
+# Suricata rules (if downloaded dynamically)
+rules/*.rules
+!rules/.gitkeep
