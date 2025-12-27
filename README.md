@@ -205,16 +205,8 @@ npm install
 npm run dev
 ```
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ---
 
 <p align="center">
-  Made with ❤️ for Network Security
+  Made with ❤️ for Network Security Enthusiast
 </p>
